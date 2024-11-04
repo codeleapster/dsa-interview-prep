@@ -9,14 +9,11 @@ You are given two strings `word1` and `word2`. Merge the strings by adding lette
 Return the merged string.
 
 ### Example 1:
-
 *Input:*
-
 ```
 word1 = abc
 word2 = pqr
 ```
-
 *Output:*
 ```
 apbqcr
@@ -29,30 +26,22 @@ word1:  a   b   c
 word2:    p   q   r
 merged: a p b q c r
 ```
-
 ### Example 2:
-
 *Input:*
-
 ```
 word1 = ab
 word2 = pqrs
 ```
-
 *Output:*
 ```
 apbqrs
 ```
-
 ### Example 3:
-
 *Input:*
-
 ```
 word1 = abcd
 word2 = pq
 ```
-
 *Output:*
 ```
 apbqcd
@@ -61,7 +50,7 @@ apbqcd
 ### Constraints:
 
 - $1 <= word1.length, word2.length <= 100$
-- word1 and word2 consist of lowercase English letters.
+- `word1` and `word2` consist of lowercase English letters.
 
 ## Solution
 
