@@ -80,7 +80,7 @@ public class Solution {
 **Pseudo Code:**
 
 ```
-REVERSE_WORDS
+FUNC REVERSE_WORDS(VAR input)
     SET input = input.trim()
     VAR start = 0
     VAR end = 0
